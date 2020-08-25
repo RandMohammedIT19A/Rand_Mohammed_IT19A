@@ -1,2 +1,2 @@
-# Rand_Mohammed_IT19A
-OG
+# Rand_Mohammed_IT19
+Jag är OG
