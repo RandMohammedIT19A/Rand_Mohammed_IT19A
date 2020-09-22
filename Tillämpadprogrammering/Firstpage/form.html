@@ -10,17 +10,53 @@
         <h1> Galen OG formulär</h1>
         <p> Här ska du fylla i denna OG formulären</p>
         <hr>
-        <div>
-            <label form="email"> Email</label>
-            <input type="email" placeholder="Email" name="email" id="email" required>
+        <table>
 
-          
+            <tr>
+            <td><label for="email">Email</label></td>
+        
+            <td><input type="email" placeholder="E-post" name="email" id="email" required></td>
+            </tr>
+        
+        
+        <tr>
+            <td><label for="psw">Lösenord</label></td>
+            <td><input type="password" placeholder="Lösenord" name="psw" id="psw" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="psw-repeat">Skriv lösenord igen</label></td>
+            <td><input type="password" placeholder="Lösenord igen" name="psw-repeat" id="psw-repeat" required></td>
+        </tr>
 
+      
+        
+        <tr>
+            <td><label for="textruta">Favoritspel</label></td>
+            <td><input type="text" id="textruta" name="textruta" placeholder="Jag gillar...."></td>
+            </tr>
 
-
-            
-</div>
+            <tr>
+                <td> <label for="OG">Är du OG?</label></td>
+                 <td><input type="checkbox"></td>
+             
+             </tr>
     
-</body>
-</html>
-</form>
+        <tr>
+            <td>   <button type="submit" class="register">Lämna in</button></td>
+            <td><button type="reset" class="rensa">Rensa</button></td>
+            </tr>
+            
+            
+            
+            </table>
+            
+            
+            
+            
+            
+            
+            
+            </form>
+            </body>
+            </html>
