@@ -1,41 +1,19 @@
+let talseriejamna = document.querySelector("#talseriejamn")
+let talserieudda = document.querySelector("#talserieudda")
+let huy = document.querySelector("#lektioner")
 
-let p_talserie1 = document.querySelector("#talserie1")
-let p_talserie2 = document.querySelector("#talserie2")
-let p_summa = document.querySelector("#summa")
-let p_klass = document.querySelector("#klasslista")
-let summa = 0
 
-for (let i=1; i<=10; i++){
-p_talserie1.innerHTML += `${i} `
-}
-
-for (let j=10; j>0; j--){
-p_talserie2.innerHTML += `${j} `
-}
-
-for (let i = 0; i<10; i++) {
-console.log(`${i}. I will not write all over the walls`)
+for (let i=0; i < 50; i++){
+    talseriejamna.innerHTML += `${2*i},`
+    talserieudda.innerHTML += `${2*i+1},`
 }
 
 
-for (let i=0; i<=10; i++){
 
-    summa += i 
+//lektioner lista
+let lektioner = ["Svenska", "Idrott", "Matematik", "Programmering", "Engelska"]
+huy.innerHTML = "Mina lektioner är: <br/>"
 
-}
-p_summa.innerHTML += `1 + 2 + 3 +...+9+10 = ${summa}`
-console.log(summa)
-
-//skapa en lista med elever
-
-let elever = ["Rand", "sdasdasdasd" ] 
-
-
-p_klass.innerHTML = "Klass IT19A <br/>"
-
-for (let k = 0; k < elever.length; k++) {
-    p_klass.innerHTML += `${k+1}. ${elever[k]} <br/>`
-p_klass.innerHTML += elever[0]
-
-
+for (let k = 0; k < lektioner.length; k++) {
+    huy.innerHTML += `${k+1}.${lektioner[k]} <br/>`
 }
