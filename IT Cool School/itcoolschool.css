@@ -1,0 +1,63 @@
+article, footer {
+    border:20px rgb(3, 115, 143);
+    text-align: center; 
+    background-color: rgb(3, 115, 143);
+    background: rgb(3, 115, 143);
+    margin:3px;
+    border-radius: 10px;
+}
+ nav{
+    border:10px rgb(3, 115, 143);
+    flex: 4;
+    background-color: rgb(3, 115, 143);
+    text-align: center;
+    
+}
+section{
+    margin: 0;
+    background-color:  rgb(3, 115, 143);
+    
+}
+p {
+    background-color:white;
+}
+h2 {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(3, 115, 143);
+  }
+  header {
+      border: white;
+      background-color:  rgb(3, 115, 143);
+      text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+      background-color:blue;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px 30px; 
+    text-decoration: none;
+  }
+
+ 
+  
+article{
+    flex: 6;
+}
+@media only screen and (max-width: 700px) {
+    section {
+        flex-direction: column;
+    }
+}
